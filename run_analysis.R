@@ -126,3 +126,4 @@ measureAvgerages <- dcast(dtSubjectActivitesWithMeasuresMeanStd,
 
 # Write the tab delimited file
 write.table(measureAvgerages, file="tidyData.txt", row.name=FALSE, sep = "\t")
+
