@@ -58,6 +58,6 @@ To appropriately labels the data set with descriptive variable names I removed '
 Tidy data set
 --------------
 To creates a second, independent tidy data set I used ddply form plyr package to group by columns Subject.id and Activity.Name and apply the mean to the other variables.
-I then recorded the tidy set in the 'my_tidy_data_set.txt' file.
+I then recorded the tidy set in the 'tidyData.txt' file.
 
 The tidy set has 180 observation of 81 variables.
